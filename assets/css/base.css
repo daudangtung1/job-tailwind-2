@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "swiper/swiper.min.css";
+@import "swiper/swiper-bundle.min.css";
+
+@layer base {
+    .ladi-container {
+        @apply mx-auto;
+        max-width: 960px;
+    }
+
+    .swiper-button-next:after,
+    .swiper-button-prev:after {
+        @apply text-black !text-2xl font-bold;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar {
+        height: 2px;
+        width: 2px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: grey;
+        border-radius: 2px;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        border-radius: 2px;
+    }
+
+    .default-btn {
+        @apply bg-defaultOrange text-white text-sm font-bold rounded-full w-[178px] h-[40px];
+    }
+
+    .absolute-center {
+        @apply top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2;
+    }
+}
+
+@layer utilities {
+    #section-1 {
+        @apply relative;
+    }
+
+    .bg-light-black {
+        background-color: rgba(0, 0, 0, .5);
+    }
+
+    .lightbox-close {
+        background-image: url('data:image/svg+xml;utf8, %3Csvg%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22%23fff%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M23.4144%202.00015L2.00015%2023.4144L0.585938%2022.0002L22.0002%200.585938L23.4144%202.00015Z%22%3E%3C%2Fpath%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M2.00015%200.585938L23.4144%2022.0002L22.0002%2023.4144L0.585938%202.00015L2.00015%200.585938Z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
+    }
+
+    .section-2-bg {
+        background-image: linear-gradient(rgb(10, 103, 233), rgb(5, 34, 74));
+    }
+
+    .section-5-bg {
+        background-image: linear-gradient(rgba(255, 255, 255, 0), rgb(10, 103, 233));
+    }
+
+    .bg-light-gray {
+        background-color: rgba(234, 242, 255, 0.89);
+    }
+
+    .bg-light-gray-1 {
+        background-color: rgba(8, 58, 145, 0.1);
+    }
+
+    .bg-white-1 {
+        background-color: rgba(255, 255, 255, 0.89);
+    }
+
+    .bg-white-2 {
+        background-color: rgba(234, 242, 254, 0.8);
+    }
+
+    .bg-dark-blue-1 {
+        background-image: linear-gradient(rgba(7, 58, 145, 0.9), rgba(5, 31, 77, 0.9));
+    }
+
+    .bg-blue-1 {
+        background-image: linear-gradient(rgb(41, 99, 255), rgba(41, 100, 255, 0));
+    }
+
+    .bg-blue-2 {
+        background-image: linear-gradient(240deg, rgba(10, 103, 233, 0.7), rgb(10, 103, 233));
+    }
+
+    .bg-light-blue-1 {
+        background-image: linear-gradient(rgba(10, 103, 233, 0.3), rgba(255, 255, 255, 0));
+    }
+
+    .youtube-modal__close {
+        background-image: url('data:image/svg+xml;utf8, %3Csvg%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22%23fff%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M23.4144%202.00015L2.00015%2023.4144L0.585938%2022.0002L22.0002%200.585938L23.4144%202.00015Z%22%3E%3C%2Fpath%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M2.00015%200.585938L23.4144%2022.0002L22.0002%2023.4144L0.585938%202.00015L2.00015%200.585938Z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
+        @apply w-4 h-4 bg-no-repeat bg-cover;
+    }
+}
