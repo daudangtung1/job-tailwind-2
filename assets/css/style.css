@@ -944,6 +944,10 @@ video {
   height: 266px;
 }
 
+.h-\[283px\] {
+  height: 283px;
+}
+
 .h-\[297px\] {
   height: 297px;
 }
@@ -1000,8 +1004,12 @@ video {
   height: 100vh;
 }
 
-.h-\[283px\] {
-  height: 283px;
+.h-\[806px\] {
+  height: 806px;
+}
+
+.h-\[254px\] {
+  height: 254px;
 }
 
 .min-h-\[357px\] {
@@ -1104,6 +1112,10 @@ video {
   width: 339px;
 }
 
+.w-\[434px\] {
+  width: 434px;
+}
+
 .w-\[472px\] {
   width: 472px;
 }
@@ -1140,8 +1152,20 @@ video {
   width: 100vw;
 }
 
-.w-\[434px\] {
-  width: 434px;
+.w-\[435px\] {
+  width: 435px;
+}
+
+.w-\[327px\] {
+  width: 327px;
+}
+
+.w-\[286px\] {
+  width: 286px;
+}
+
+.w-\[254px\] {
+  width: 254px;
 }
 
 .flex-shrink-0 {
@@ -1170,6 +1194,10 @@ video {
 
 .justify-center {
   justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
 }
 
 .gap-\[21px\] {
@@ -1268,6 +1296,10 @@ video {
 
 .bg-opacity-50 {
   --tw-bg-opacity: 0.5;
+}
+
+.bg-\[url\(\'\.\.\/images\/content\/10-2\.jpg\'\)\] {
+  background-image: url('../images/content/10-2.jpg');
 }
 
 .bg-\[url\(\'\.\.\/images\/hero\/3\.jpg\'\)\] {
@@ -1474,6 +1506,10 @@ video {
   font-size: 42px;
 }
 
+.text-\[75px\] {
+  font-size: 75px;
+}
+
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -1482,6 +1518,10 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-\[60px\] {
+  font-size: 60px;
 }
 
 .font-bold {
@@ -1600,6 +1640,14 @@ video {
   background-image: linear-gradient(rgba(7, 58, 145, 0.9), rgba(5, 31, 77, 0.9));
 }
 
+.bg-dark-blue-2 {
+  background-color: rgba(5, 34, 74, 0.89);
+}
+
+.bg-dark-blue-3 {
+  background-color: rgb(5, 34, 74);
+}
+
 .bg-blue-1 {
   background-image: linear-gradient(rgb(41, 99, 255), rgba(41, 100, 255, 0));
 }
@@ -1626,6 +1674,22 @@ video {
 
 .section-10-1-bg {
   background-color: rgba(5, 34, 74, 0.9);
+}
+
+.content-s10-span {
+  background-image: url('../images/content/10-3.jpg');
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: cover;
+  background-position: center center;
+}
+
+.\[width\:calc\(100\%-327px\)\] {
+  width: calc(100% - 327px);
+}
+
+.\[width\:calc\(100\%-327px-79px\)\] {
+  width: calc(100% - 327px - 79px);
 }
 
 @media not all and (min-width: 1536px) {
@@ -1927,6 +1991,10 @@ video {
 
   .md\:flex-col {
     flex-direction: column;
+  }
+
+  .md\:gap-\[47px\] {
+    gap: 47px;
   }
 
   .md\:px-0 {
