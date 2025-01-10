@@ -1,7 +1,8 @@
 $(document).ready(function () {
+    //----------------hero----------------//
     const iframe1 = `
         <iframe 
-            class="mx-auto shadow-shadow1" 
+            class="mx-auto shadow-shadow1 w-full" 
             data-video-type="youtube"
             data-autoplay="true" 
             width="723" 
@@ -22,6 +23,38 @@ $(document).ready(function () {
             referrerpolicy="strict-origin-when-cross-origin"
             title="LadiPage - Nền Tảng Thiết Kế Landing Page Bán Hàng Và Quảng Cáo" width="640" height="360"
             src="https://www.youtube.com/embed/Zj1SKwVv7AA?rel=0&modestbranding=0&playsinline=0&controls=1&autoplay=1&loop=1&wmode=transparent">
+        </iframe>
+    `;
+
+    const iframe3 = `
+        <iframe
+            style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; bottom: 0;"
+            data-video-type="youtube"
+            data-autoplay="true" 
+            width="640"
+            height="360"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen 
+            referrerpolicy="strict-origin-when-cross-origin"
+            title="LadiPage - Nền Tảng Thiết Kế Landing Page Bán Hàng Và Quảng Cáo"
+            src="https://www.youtube.com/embed/Zj1SKwVv7AA?rel=0&modestbranding=0&playsinline=1&controls=1&autoplay=1&loop=1&mute=1">
+        </iframe>
+    `;
+
+    const iframe4 = `
+        <iframe 
+            class="mx-auto shadow-shadow1 w-full max-md:h-[207px]" 
+            data-video-type="youtube"
+            data-autoplay="true" 
+            width="723" 
+            height="407" 
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen 
+            referrerpolicy="strict-origin-when-cross-origin"
+            title="LadiPage - Nền Tảng Thiết Kế Landing Page Bán Hàng Và Quảng Cáo"
+            src="https://www.youtube.com/embed/Zj1SKwVv7AA?rel=0&modestbranding=0&playsinline=1&controls=1&autoplay=1&loop=1&mute=1">
         </iframe>
     `;
 
@@ -52,4 +85,16 @@ $(document).ready(function () {
         $('.youtube-modal__iframe').html('');
         $('.youtube-modal').css('position', '').addClass('hidden');
     }
+
+    // section 8
+    $('.video-background-2').on('click', function () {
+        $(this).html('');
+        $(this).html(iframe3);
+    });
+
+    // section 9
+    $('.video-background-9').on('click', function () {
+        $('.video-background-9').html('');
+        $('.video-background-9').html(iframe4);
+    });
 });

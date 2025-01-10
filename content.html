@@ -6,74 +6,429 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-    <style>
-        .video-container {
-            position: relative;
-            width: 100%;
-            padding-top: 56.25%;
-            /* Aspect Ratio 16:9 */
-            overflow: hidden;
-            border-radius: 16px;
-        }
-
-        .video-container iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: 1;
-        }
-
-        .video-background {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 50%;
-            height: 50%;
-            z-index: 0;
-            background-image: url('assets/images/hero/1.jpg');
-            /* Thay ảnh nền */
-            background-size: cover;
-            background-position: center;
-            filter: blur(4px);
-            /* Làm mờ background */
-        }
-
-        .play-button {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            z-index: 2;
-            background-image: url('assets/images/hero/play.svg');
-            /* Thay ảnh nút */
-            background-size: cover;
-            background-position: center;
-            width: 64px;
-            height: 64px;
-            cursor: pointer;
-        }
-    </style>
 </head>
 
-<body class="bg-gray-100 flex items-center justify-center min-h-screen m-auto">
-
-    <div class="video-container">
-        <div class="video-background">
-            <div class="play-button"></div>
+<body>
+    <!------------ Section 1 ------------>
+    <!-- <section>
+        <div class="ladi-container">
+            <div class="flex md:flex-row flex-col">
+                <div class="relative">
+                    <h2>Reasons why people should buy from you</h2>
+                    <div>
+                        <div class="content-youtube-iframe"></div>
+                        <img src="assets/images/content/1.jpg" alt="" class="w-full h-full object-cover">
+                    </div>
+                </div>
+            </div>
         </div>
-        <iframe id="VIDEO2_player" class="iframe-video-preload" data-video-type="youtube" data-autoplay="undefined"
-            style="position: absolute; width: 50%; height: 50%; top: 0; left: 0;" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen="" referrerpolicy="strict-origin-when-cross-origin"
-            title="LadiPage - Nền Tảng Thiết Kế Landing Page Bán Hàng Và Quảng Cáo" width="640" height="360"
-            src="https://www.youtube.com/embed/Zj1SKwVv7AA?rel=0&amp;modestbranding=0&amp;playsinline=0&amp;controls=1&amp;widget_referrer=https%3A%2F%2Fbuilder.ladipage.com%2Feditor%2F67734cb2f7bbbe001250d044&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fbuilder.ladipage.com&amp;widgetid=1">
-        </iframe>
+    </section> -->
+    <!---------- End Section 1 ---------->
 
-        <!-- Play Button -->
+    <!------------ Section 6 ------------>
+    <!-- <section class="md:pt-[44px] pt-[22px] md:pb-[55px] pb-[65px]">
+        <div class="ladi-container">
+            <div class="flex md:flex-row flex-col mb-[48px]">
+                <div class="md:w-[341px] w-full pt-[27px] md:px-0 px-6 md:text-left text-center">
+                    <h2
+                        class="text-galleryBlue1 text-3xl font-bold leading-[1.2] md:w-[300px] w-full mb:mb-0 mb-[25px]">
+                        Reasons why people should buy from you
+                    </h2>
+                </div>
+                <div class="md:[width:calc(100%-341px)] max-md:px-6">
+                    <div class="bg-light-gray-2">
+                        <div class="md:pt-[27px] pt-[28px] md:pl-[46px] pb-[27px] px-9 text-lightGray2">
+                            <p class="text-sm leading-[1.6] mb-[27px]">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo leo, tincidunt ac
+                                lectus vel, tincidunt scelerisque sapien. Quisque commodo orci at odio aliquet pretium.
+                                Sed
+                                faucibus eget turpis tincidunt tincidunt.
+                            </p>
+                            <button class="default-btn w-[170px]">
+                                CALL TO ACTION
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="2xl:flex 2xl:justify-center 2xl:ml-[56px] max-2xl:ladi-container">
+            <div class="flex overflow-x-scroll">
+                <div class="w-[339px] flex-shrink-0 pl-[1px]">
+                    <div class="flex">
+                        <div class="relative w-[23px] pl-0.5">
+                            <div class="w-px h-[136px] bg-lightGray4"></div>
+                            <div class="w-[5px] h-[33px] bg-defaultOrange absolute top-0 left-0"></div>
+                        </div>
+                        <div class="w-[258px]">
+                            <h3 class="text-galleryBlue1 text-lg font-bold leading-[1.4]">
+                                Here’s your reasons
+                            </h3>
+                            <p class="text-lightGray1 text-sm leading-[1.6] mt-[26px] w-[258px]">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo leo, tincidunt ac
+                                lectus vel, tincidunt scelerisque sapien. Quisque.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[339px] flex-shrink-0 pl-[1px]">
+                    <div class="flex">
+                        <div class="relative w-[23px] pl-0.5">
+                            <div class="w-px h-[136px] bg-lightGray4"></div>
+                            <div class="w-[5px] h-[33px] bg-defaultOrange absolute top-0 left-0"></div>
+                        </div>
+                        <div class="w-[258px]">
+                            <h3 class="text-galleryBlue1 text-lg font-bold leading-[1.4]">
+                                Here’s your reasons
+                            </h3>
+                            <p class="text-lightGray1 text-sm leading-[1.6] mt-[26px] w-[258px]">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo leo, tincidunt ac
+                                lectus vel, tincidunt scelerisque sapien. Quisque.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[339px] flex-shrink-0 pl-[1px]">
+                    <div class="flex">
+                        <div class="relative w-[23px] pl-0.5">
+                            <div class="w-px h-[136px] bg-lightGray4"></div>
+                            <div class="w-[5px] h-[33px] bg-defaultOrange absolute top-0 left-0"></div>
+                        </div>
+                        <div class="w-[258px]">
+                            <h3 class="text-galleryBlue1 text-lg font-bold leading-[1.4]">
+                                Here’s your reasons
+                            </h3>
+                            <p class="text-lightGray1 text-sm leading-[1.6] mt-[26px] w-[258px]">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo leo, tincidunt ac
+                                lectus vel, tincidunt scelerisque sapien. Quisque.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!---------- End Section 6 ---------->
 
-    </div>
+    <!------------ Section 7 ------------>
+    <!-- <section class="pt-[51px] mb:pb-[60px] pb-[65px]">
+        <div class="ladi-container">
+            <div class="text-center md:mb-[58px] mb-[52px] px-6">
+                <h2 class="text-galleryBlue1 text-3xl font-bold leading-[1.2] w-full mb:mb-0 mb-[15px]">
+                    Reasons why people should buy from you
+                </h2>
+                <p class="text-sm leading-[1.6] mb-[26px] lg:w-[727px] mx-auto">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo leo, tincidunt ac lectus vel,
+                    tincidunt scelerisque sapien. Quisque commodo orci at odio aliquet pretium. Sed faucibus eget turpis
+                </p>
+                <button
+                    class="border rounded-full w-[170px] h-[40px] text-defaultOrange border-defaultOrange text-sm font-bold mx-auto">
+                    CALL TO ACTION
+                </button>
+            </div>
+            <div class="flex gap-[21px] overflow-x-scroll">
+                <div class="w-[224px] flex-shrink-0">
+                    <div class="w-full h-[297px] mb-[27px]">
+                        <img src="assets/images/content/6-1.jpg" alt="" class="w-full h-full object-cover">
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-bold leading-[1.2] text-darkBlue1 mb-[8px]">
+                            Here’s your reasons
+                        </h3>
+                        <p class="text-sm leading-[1.6] text-lightGray2">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo leo, tincidunt ac
+                            lectus
+                        </p>
+                    </div>
+                </div>
+                <div class="w-[224px] flex-shrink-0">
+                    <div class="w-full h-[297px] mb-[27px]">
+                        <img src="assets/images/content/6-2.jpg" alt="" class="w-full h-full object-cover">
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-bold leading-[1.2] text-darkBlue1 mb-[8px]">
+                            Here’s your reasons
+                        </h3>
+                        <p class="text-sm leading-[1.6] text-lightGray2">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo leo, tincidunt ac
+                            lectus
+                        </p>
+                    </div>
+                </div>
+                <div class="w-[224px] flex-shrink-0">
+                    <div class="w-full h-[297px] mb-[27px]">
+                        <img src="assets/images/content/6-3.jpg" alt="" class="w-full h-full object-cover">
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-bold leading-[1.2] text-darkBlue1 mb-[8px]">
+                            Here’s your reasons
+                        </h3>
+                        <p class="text-sm leading-[1.6] text-lightGray2">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo leo, tincidunt ac
+                            lectus
+                        </p>
+                    </div>
+                </div>
+                <div class="w-[224px] flex-shrink-0">
+                    <div class="w-full h-[297px] mb-[27px]">
+                        <img src="assets/images/content/6-4.jpg" alt="" class="w-full h-full object-cover">
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-bold leading-[1.2] text-darkBlue1 mb-[8px]">
+                            Here’s your reasons
+                        </h3>
+                        <p class="text-sm leading-[1.6] text-lightGray2">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo leo, tincidunt ac
+                            lectus
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!---------- End Section 7 ---------->
+
+    <!------------ Section 8 ------------>
+    <!-- <section class="pt-[55px]">
+        <div class="ladi-container">
+            <div class="text-center md:mb-[51px] mb-[48px] px-6">
+                <h2 class="text-galleryBlue1 text-3xl font-bold leading-[1.2] w-full mb:mb-0 mb-[12px]">
+                    Reasons why people should buy from you
+                </h2>
+                <p class="text-sm leading-[1.6] md:mb-[26px] mb-[23px] lg:w-[727px] mx-auto text-lightGray2">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo leo, tincidunt ac lectus
+                    vel,
+                    tincidunt scelerisque sapien. Quisque commodo orci at odio aliquet pretium. Sed faucibus eget
+                    turpis
+                </p>
+                <button
+                    class="border rounded-full w-[170px] h-[40px] text-defaultOrange border-defaultOrange text-sm font-bold mx-auto">
+                    CALL TO ACTION
+                </button>
+            </div>
+            <div class="flex gap-[24px] overflow-x-scroll">
+                <div class="w-[304px] flex-shrink-0">
+                    <div class="w-full h-[180px]">
+                        <img src="assets/images/content/8-1.jpg" alt="" class="w-full h-full object-cover">
+                    </div>
+                    <div class="bg-galleryBlue1 px-6 pt-6 pb-5 text-center shadow-shadow2">
+                        <h3 class="text-white text-lg font-bold leading-[1.2]">Here’s your reasons</h3>
+                        <p class="text-white line-clamp-4 text-sm leading-[1.6]">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo leo, tincidunt ac
+                            lectus vel, tincidunt scelerisque sapien. Quisque.
+                        </p>
+                    </div>
+                </div>
+                <div class="w-[304px] flex-shrink-0">
+                    <div class="w-full h-[180px]">
+                        <img src="assets/images/content/8-2.jpg" alt="" class="w-full h-full object-cover">
+                    </div>
+                    <div class="bg-galleryBlue1 px-6 pt-6 pb-5 text-center shadow-shadow2">
+                        <h3 class="text-white text-lg font-bold leading-[1.2]">Here’s your reasons</h3>
+                        <p class="text-white line-clamp-4 text-sm leading-[1.6]">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo leo, tincidunt ac
+                            lectus vel, tincidunt scelerisque sapien. Quisque.
+                        </p>
+                    </div>
+                </div>
+                <div class="w-[304px] flex-shrink-0">
+                    <div class="w-full h-[180px]">
+                        <img src="assets/images/content/8-3.jpg" alt="" class="w-full h-full object-cover">
+                    </div>
+                    <div class="bg-galleryBlue1 px-6 pt-6 pb-5 text-center shadow-shadow2">
+                        <h3 class="text-white text-lg font-bold leading-[1.2]">Here’s your reasons</h3>
+                        <p class="text-white line-clamp-4 text-sm leading-[1.6]">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo leo, tincidunt ac
+                            lectus vel, tincidunt scelerisque sapien. Quisque.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!---------- End Section 8 ---------->
+
+    <!------------ Section 9 ------------>
+    <!-- <section class="bg-white1">
+        <div class="ladi-container relative">
+            <div class="lg:pl-[94px] lg:pr-0 px-[35px] md:min-h-[336px] min-h-[357px]">
+                <div class="bg-lightGray3 w-[247px] md:h-[336px] h-[357px] absolute top-0 md:left-0 -left-[120px] z-10"></div>
+                <div class="relative z-20 md:pt-[55px] pt-[50px]">
+                    <h2 class="text-darkBlue3 text-3xl font-bold leading-[1.4] lg:w-[763px] md:mb-[23px] mb-[22px]">
+                        Reasons why people should buy from you
+                    </h2>
+                    <p class="text-darkBlue3 text-sm leading-[1.6] lg:w-[641px] md:mb-[45px] mb-[38px]">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo leo, tincidunt ac lectus
+                        vel,
+                        tincidunt scelerisque sapien. Quisque commodo orci at odio aliquet pretium. Sed faucibus eget.
+                    </p>
+                    <button
+                        class="border rounded-full w-[184px] h-[40px] text-defaultOrange border-defaultOrange text-sm font-bold mx-auto">
+                        CALL TO ACTION
+                    </button>
+                </div>
+            </div>
+            <div class="lg:grid lg:grid-cols-2 flex lg:h-[375px] relative mt-[31px] overflow-x-scroll">
+                <div class="lg:w-[487px] w-[316px] lg:h-[194px] h-full lg:gap-[34px] gap-[28px] lg:absolute z-20 lg:top-0 lg:left-0 flex lg:flex-row flex-col-reverse items-center max-lg:flex-shrink-0 max-lg:text-center justify-end">
+                    <div class="lg:[width:calc(100%-194px-34px)] pt-[2px]">
+                        <h3 class="text-lg font-bold leading-[1.4] text-galleryBlue1 mb-[18px]">
+                            Here’s your reasons
+                        </h3>
+                        <p class="text-darkBlue3 text-sm leading-[1.6]">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo leo, tincidunt ac
+                            lectus
+                            vel, tincidunt.
+                        </p>
+                    </div>
+                    <div class="w-[194px] h-[194px] relative">
+                        <img src="assets/images/content/9-1.jpg" alt="" class="w-full h-full object-cover rounded-full">
+                        <div class="w-[100px] h-[100px] absolute top-0 left-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
+                                preserveAspectRatio="none" viewBox="0 0 150 150" fill="rgba(244, 64, 37, 1.0)">
+                                <path
+                                    d="M68,150H0v-1.76C0,66.5,66.5,0,148.24,0H150V68h-1.76A80.3,80.3,0,0,0,68,148.24ZM3.54,146.47h61a83.84,83.84,0,0,1,82-81.95v-61C68.08,4.48,4.48,68.08,3.54,146.47Z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-[487px] w-[316px] lg:h-[194px] h-full lg:gap-[34px] gap-[28px] lg:absolute z-10 lg:top-0 lg:right-0 flex lg:flex-row-reverse flex-col-reverse items-center max-lg:flex-shrink-0 max-lg:text-center justify-end">
+                    <div class="lg:[width:calc(100%-194px-34px)] pt-[2px]">
+                        <h3 class="text-lg font-bold leading-[1.4] text-galleryBlue1 mb-[18px]">
+                            Here’s your reasons
+                        </h3>
+                        <p class="text-darkBlue3 text-sm leading-[1.6]">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo leo, tincidunt ac
+                            lectus
+                            vel, tincidunt.
+                        </p>
+                    </div>
+                    <div class="w-[194px] h-[194px]">
+                        <img src="assets/images/content/9-2.jpg" alt="" class="w-full h-full object-cover rounded-full">
+                    </div>
+                </div>
+                <div class="lg:w-[487px] w-[316px] lg:h-[194px] h-full lg:gap-[34px] gap-[28px] lg:absolute z-10 lg:bottom-0 lg:left-0 flex lg:flex-row flex-col-reverse items-center max-lg:flex-shrink-0 max-lg:text-center justify-end">
+                    <div class="lg:[width:calc(100%-194px-34px)] pt-[2px]">
+                        <h3 class="text-lg font-bold leading-[1.4] text-galleryBlue1 mb-[18px]">
+                            Here’s your reasons
+                        </h3>
+                        <p class="text-darkBlue3 text-sm leading-[1.6]">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo leo, tincidunt ac
+                            lectus
+                            vel, tincidunt.
+                        </p>
+                    </div>
+                    <div class="w-[194px] h-[194px]">
+                        <img src="assets/images/content/9-3.jpg" alt="" class="w-full h-full object-cover rounded-full">
+                    </div>
+                </div>
+                <div class="lg:w-[487px] w-[316px] lg:h-[194px] h-full lg:gap-[34px] gap-[28px] lg:absolute z-20 blg:ottom-0 lg:right-0 flex lg:flex-row-reverse flex-col-reverse items-center max-lg:flex-shrink-0 max-lg:text-center justify-end">
+                    <div class="lg:[width:calc(100%-194px-34px)] pt-[2px]">
+                        <h3 class="text-lg font-bold leading-[1.4] text-galleryBlue1 mb-[18px]">
+                            Here’s your reasons
+                        </h3>
+                        <p class="text-darkBlue3 text-sm leading-[1.6]">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo leo, tincidunt ac
+                            lectus
+                            vel, tincidunt.
+                        </p>
+                    </div>
+                    <div class="w-[194px] h-[194px]">
+                        <img src="assets/images/content/9-4.jpg" alt="" class="w-full h-full object-cover rounded-full">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!---------- End Section 9 ---------->
+
+    <!------------ Section 10 ------------>
+    <section>
+        <div class="ladi-container">
+            <div class="flex justify-end">
+                <div class="relative z-20 md:pt-[55px] pt-[50px]">
+                    <h2 class="text-darkBlue3 text-3xl font-bold leading-[1.4] lg:w-[763px] md:mb-[23px] mb-[22px]">
+                        Reasons why people should buy from you
+                    </h2>
+                    <p class="text-darkBlue3 text-sm leading-[1.6] lg:w-[641px] md:mb-[45px] mb-[38px]">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo leo, tincidunt ac lectus
+                        vel,
+                        tincidunt scelerisque sapien. Quisque commodo orci at odio aliquet pretium. Sed faucibus eget.
+                    </p>
+                    <button
+                        class="border rounded-full w-[184px] h-[40px] text-defaultOrange border-defaultOrange text-sm font-bold mx-auto">
+                        CALL TO ACTION
+                    </button>
+                </div>
+            </div>
+            <div>
+                <div class="flex md:flex-row flex-col">
+                    <div class="flex md:flex-col flex-col-reverse">
+                        <div>
+                            <span class="block">1</span>
+                            <h3>
+                                Here’s your reasons
+                            </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo leo, tincidunt ac
+                                lectus vel, tincidunt scelerisque sapien. Quisque commodo orci at odio aliquet pretium.
+                                Sed faucibus eget turpis tincidunt tincidunt. Maecenas vel lorem finibus, iaculis diam
+                                id, venenatis odio. Curabitur ante metus, luctus quis vestibulum non, rutrum vel nisl.
+                            </p>
+                        </div>
+                        <div class="relative">
+                            <div class="w-[434px] h-[283px]">
+                                <img src="assets/images/content/10.jpg" alt="" class="w-full h-full object-cover">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:grid md:grid-cols-2 flex">
+                        <div>
+                            <span class="block">2</span>
+                            <h3>
+                                Here’s your reasons
+                            </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo leo, tincidunt ac
+                                lectus vel, tincidunt scelerisque sapien. Quisque commodo orci.
+                            </p>
+                        </div>
+                        <div>
+                            <span class="block">3</span>
+                            <h3>
+                                Here’s your reasons
+                            </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo leo, tincidunt ac
+                                lectus vel, tincidunt scelerisque sapien. Quisque commodo orci.
+                            </p>
+                        </div>
+                        <div>
+                            <span class="block">4</span>
+                            <h3>
+                                Here’s your reasons
+                            </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo leo, tincidunt ac
+                                lectus vel, tincidunt scelerisque sapien. Quisque commodo orci.
+                            </p>
+                        </div>
+                        <div>
+                            <span class="block">5</span>
+                            <h3>
+                                Here’s your reasons
+                            </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo leo, tincidunt ac
+                                lectus vel, tincidunt scelerisque sapien. Quisque commodo orci.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---------- End Section 10 ---------->
     <script src="assets/lib/jquery/jquery.min.js"></script>
     <script src="assets/js/index.js"></script>
 </body>

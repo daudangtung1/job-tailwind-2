@@ -12,9 +12,11 @@ module.exports = {
       },
       colors: {
         galleryBlue1: 'rgb(10, 103, 233)',
+        white1: 'rgb(250, 250, 250)',
         lightGray1: 'rgb(36, 36, 36)',
         lightGray2: 'rgb(84, 84, 84)',
         lightGray3: 'rgb(234, 242, 254)',
+        lightGray4: 'rgb(228, 228, 228)',
         defaultOrange: 'rgb(244, 64, 37)',
         orange1: 'rgb(242, 66, 13)',
         orange2: 'rgb(242, 67, 13)',
@@ -31,6 +33,7 @@ module.exports = {
       },
       boxShadow: {
         shadow1: '2px 7px 15px 0px rgba(0, 0, 0, 0.2)',
+        shadow2: 'rgb(5, 34, 74) 0px 2px 0px 0px'
       },
       borderRadius: {
         'bottom-left-370px': '0 0 0 370px'

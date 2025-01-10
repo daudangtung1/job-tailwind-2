@@ -70,6 +70,10 @@
         background-color: rgba(8, 58, 145, 0.1);
     }
 
+    .bg-light-gray-2 {
+        background-image: linear-gradient(90deg, rgb(234, 242, 254), rgba(255, 255, 255, 0));
+    }
+
     .bg-white-1 {
         background-color: rgba(255, 255, 255, 0.89);
     }
@@ -94,8 +98,16 @@
         background-image: linear-gradient(rgba(10, 103, 233, 0.3), rgba(255, 255, 255, 0));
     }
 
+    .bg-light-violet-1 {
+        background-image: linear-gradient(90deg, rgba(234, 242, 254, 0.5), rgb(234, 242, 254));
+    }
+
     .youtube-modal__close {
         background-image: url('data:image/svg+xml;utf8, %3Csvg%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22%23fff%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M23.4144%202.00015L2.00015%2023.4144L0.585938%2022.0002L22.0002%200.585938L23.4144%202.00015Z%22%3E%3C%2Fpath%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M2.00015%200.585938L23.4144%2022.0002L22.0002%2023.4144L0.585938%202.00015L2.00015%200.585938Z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E');
         @apply w-4 h-4 bg-no-repeat bg-cover;
+    }
+
+    .section-10-1-bg {
+        background-color: rgba(5, 34, 74, 0.9);
     }
 }
