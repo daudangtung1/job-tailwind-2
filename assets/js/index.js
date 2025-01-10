@@ -25,7 +25,6 @@ $(document).ready(function () {
             src="https://www.youtube.com/embed/Zj1SKwVv7AA?rel=0&modestbranding=0&playsinline=0&controls=1&autoplay=1&loop=1&wmode=transparent">
         </iframe>
     `;
-
     const iframe3 = `
         <iframe
             style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; bottom: 0;"
@@ -41,7 +40,6 @@ $(document).ready(function () {
             src="https://www.youtube.com/embed/Zj1SKwVv7AA?rel=0&modestbranding=0&playsinline=1&controls=1&autoplay=1&loop=1&mute=1">
         </iframe>
     `;
-
     const iframe4 = `
         <iframe 
             class="mx-auto shadow-shadow1 w-full max-md:h-[207px]" 
