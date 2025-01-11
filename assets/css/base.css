@@ -94,6 +94,10 @@
         background-color: rgb(5, 34, 74);
     }
 
+    .bg-dark-blue-4 {
+        background-color: rgba(5, 34, 75, 0.9);
+    }
+
     .bg-blue-1 {
         background-image: linear-gradient(rgb(41, 99, 255), rgba(41, 100, 255, 0));
     }

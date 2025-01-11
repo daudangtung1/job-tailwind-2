@@ -37,7 +37,10 @@ module.exports = {
       },
       borderRadius: {
         'bottom-left-370px': '0 0 0 370px'
-      }
+      },
+      listStyleType: {
+        circle: 'circle',
+      },
     },
   },
   plugins: [
